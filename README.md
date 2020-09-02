@@ -1,0 +1,3 @@
+# Simple QR code generator
+
+Simple QR Code Generator with basic features...
