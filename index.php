@@ -21,21 +21,21 @@
 </div>
 	     <div class="px-8 py-12">
     	     <div> 
-
+<form action="result.php" method="post">
  <div class="bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <h2 class="text-center text-gray-900 text-lg font-medium title-font mb-5">QR Code Generator</h2>
       <div class="relative mb-4">
         <label for="text" class="leading-7 text-sm text-gray-600">Text/Link</label>
-        <input type="text" id="text" name="text" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+        <input type="text" id="text" name="text" placeholder="Type your text here" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>
       </div>
       <div class="lg:w-full md:w-2/3 mx-auto">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-600">Padding
-           <select class="form-select block-sm w-full text-sm text-gray-600">
+            <label for="wm" class="leading-7 text-sm text-gray-600">Padding
+           <select class="form-select block-sm w-full text-sm text-gray-600" id="wm" name="wm" required>
     <option value="1">1</option>
-    <option value="2">2</option>
+    <option value="2">2 (Recommended)</option>
     <option value="3">3</option>
     <option value="4">4</option>
     <option value="5">5</option>
@@ -44,22 +44,24 @@
         </div>
         <div class="p-2 w-1/2">
           <div class="relative">
-                  <label for="name" class="leading-7 text-sm text-gray-600">Clarity
-           <select class="form-select block-sm w-full text-sm text-gray-600">
+                  <label for="sf" class="leading-7 text-sm text-gray-600">Clarity
+           <select class="form-select block-sm w-full text-sm text-gray-600" id="sf" name="sf" required>
     <option value="1">1</option>
     <option value="4">4</option>
     <option value="6">6</option>
     <option value="9">9</option>
-    <option value="15">15</option>
+    <option value="15">15 (Recommended)</option>
+    <option value="20">20</option>
   </select></label>
           </div>
         </div>
         </div>
         </div>
   
-      <button class="text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg mt-6">Generate</button>
-      <p class="text-xs text-gray-500 mt-3">Please use simple text for conversation to prevent lagging.</p>
+      <button name ="submit" class="text-white bg-teal-500 border-0 py-2 px-8 focus:outline-none hover:bg-teal-600 rounded text-lg mt-6">Generate</button>
+      <p class="text-xs text-center text-gray-500 mt-3">Please use simple text for conversation to prevent lagging. Thanks for Downloading my Project 😊</p>
     </div></div>
+    </form>
              <div></div>
     	</div>
     </body>
