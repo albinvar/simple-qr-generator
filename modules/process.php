@@ -15,6 +15,7 @@ if (isset($_POST['submit'])) {
 	} else {
 	
 	$msg = "An error occurred...!!!";
+	header("location: index.php");
 	}
 
 ?>
