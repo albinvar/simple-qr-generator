@@ -37,7 +37,7 @@
         <div class="p-2 w-1/2">
           <div class="relative">
             <label for="wm" class="leading-7 text-sm text-gray-600">Padding
-           <select class="form-select block-sm w-full text-sm text-gray-600" id="wm" name="wm" required>
+           <select class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray" id="wm" name="wm" required>
     <option value="1">1</option>
     <option value="2">2 (Recommended)</option>
     <option value="3">3</option>
@@ -49,7 +49,7 @@
         <div class="p-2 w-1/2">
           <div class="relative">
                   <label for="sf" class="leading-7 text-sm text-gray-600">Clarity
-           <select class="form-select block-sm w-full text-sm text-gray-600" id="sf" name="sf" required>
+           <select class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray" id="sf" name="sf" required>
     <option value="1">1</option>
     <option value="4">4</option>
     <option value="6">6</option>
