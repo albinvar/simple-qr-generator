@@ -1,3 +1,4 @@
+<?php include 'modules/process.php'; ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,12 +25,12 @@
 <div class="bg-gray-200 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
       <h2 class="text-center text-gray-900 text-lg font-medium title-font mb-5">QR Code Generator</h2>
      
-    <img class="text-center mx-auto w-auto h-auto" src="example/qrcode.png">
+    <img class="text-center mx-auto w-auto h-auto" src="<?= htmlentities($result); ?>">
       <p class="text-xs text-center text-gray-500 mt-3">Your QR Code was generated successfully...!!!</p>
     
       <div class="text-center m-2">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 rounded">Download</button>
-		<button class="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 ml-2 text-sm rounded">View QR</button>
+        <a href="<?= htmlentities($result); ?>" download><button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mr-2 rounded">Download</button></a>
+		<a href="<?= htmlentities($result); ?>"><button class="bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 ml-2 text-sm rounded">View QR</button></a>
 
         </div>
       
