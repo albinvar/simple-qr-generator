@@ -1,10 +1,10 @@
-![Logo of the project](https://imgbbb.com/images/2020/09/05/PicsArt_09-05-04.56.31.jpg)
-
 # Simple QR Code Generator
+
+![Logo of the project](https://imgbbb.com/images/2020/09/05/PicsArt_09-05-04.56.31.jpg)
 
 Simple QR Code Generator is Developed using php and a stripped down version of https://github.com/kreativekorp/barcode.
 
-Live Demo : <a href="">Click Here </a>
+Live Demo : <a href="https://albinvar.github.io/simple-qr-generator/demo.html">Click Here </a>
 
 ## Features
 
