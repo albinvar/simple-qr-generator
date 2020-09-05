@@ -20,9 +20,9 @@
    <a href="mailto:albinmelazhakathu@gmail.com"><button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button">
       Contact
     </button></a>
-    <button class="flex-shrink-0 bg-gray-700 hover:bg-gray-600 border-teal-500 hover:border-teal-700 text-sm text-white text-sm py-1 px-2 rounded-full mx-3 heartbeat" type="button">
+    <a href="https://github.com/albinvar/simple-qr-generator.git"><button class="flex-shrink-0 bg-gray-700 hover:bg-gray-600 border-teal-500 hover:border-teal-700 text-sm text-white text-sm py-1 px-2 rounded-full mx-3 heartbeat" type="button">
  	<i style="font-size: 27px;" class="fa fa-github"></i>
-     </button>
+     </button></a>
   </div>
 </div>
 	     <div class="px-8 py-12">
